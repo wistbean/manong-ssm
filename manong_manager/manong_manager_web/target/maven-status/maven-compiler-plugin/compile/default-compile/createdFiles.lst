@@ -1,4 +1,6 @@
 com\manong\controller\UserController.class
 com\manong\controller\ProductCategoryController.class
+com\manong\fastdfs\FastDFSClient.class
 com\manong\controller\ProductConrtroller.class
 com\manong\controller\PageController.class
+com\manong\controller\FileController.class
