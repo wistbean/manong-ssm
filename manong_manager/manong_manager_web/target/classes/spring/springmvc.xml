@@ -10,6 +10,7 @@
 <context:component-scan base-package="com.manong.controller"></context:component-scan>
 
     <mvc:annotation-driven/>
+    <mvc:default-servlet-handler/>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/jsp/"/>
