@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="/css/themes/icon.css">
     <script type="text/javascript" src="/js/jquery.min.js"></script>
     <script type="text/javascript" src="/js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/js/ajaxFileUpload.js"></script>
 </head>
 <body class="easyui-layout">
 <div data-options="region:'west',title:'菜单',split:true,minWidth:180" style="width:100px;">

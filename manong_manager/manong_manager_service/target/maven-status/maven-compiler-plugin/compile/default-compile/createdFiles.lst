@@ -1,4 +1,6 @@
-com\manong\service\impl\ProductCategoryService.class
 com\manong\service\impl\ProductCategoryServiceImpl.class
+com\manong\service\ProductService.class
+com\manong\service\ProductCategoryService.class
+com\manong\service\impl\ProductServiceImpl.class
 com\manong\service\UserService.class
 com\manong\service\impl\UserServiceImpl.class

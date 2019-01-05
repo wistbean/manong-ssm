@@ -1,4 +1,4 @@
-package com.manong.service.impl;
+package com.manong.service;
 
 
 import pojo.EasyUITree;

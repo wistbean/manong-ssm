@@ -23,7 +23,7 @@ public class FileController {
         if(fileID!=null){
             System.out.print("上传文件成功");
         }
-        return fileID + "---" + uploadfile.getOriginalFilename();
+        return fileID;
 
     }
 }

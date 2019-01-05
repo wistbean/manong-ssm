@@ -21,10 +21,14 @@
 
     <form id="productAddForm" method="post">
 
+        <input type="hidden" name="categoryId">
+        <input type="hidden" name="image">
+        <input type="hidden" name="description">
+
         <table cellpadding="10px">
             <tr>
                 <td>商品名称</td>
-                <td><input class="easyui-textbox" data-options="required:true" style="width:800px"></td>
+                <td><input class="easyui-textbox" name="name" data-options="required:true" style="width:800px"></td>
             </tr>
             <tr>
                 <td>商品分类</td>
@@ -50,7 +54,8 @@
                 <td>市场价格</td>
                 <td>
                     <input class="easyui-numberbox" data-options="min:1,max:99999999,precision:2,required:true"
-                           style="width:800px">
+                           style="width:800px" name="maketPricePreview">
+                    <input type="hidden" name="maketPrice">
                 </td>
             </tr>
 
@@ -58,7 +63,8 @@
                 <td>商品价格</td>
                 <td>
                     <input class="easyui-numberbox" data-options="min:1,max:99999999,precision:2,required:true"
-                           style="width:800px">
+                           style="width:800px" name="pricePreview">
+                    <input type="hidden" name="price">
                 </td>
             </tr>
 
@@ -66,14 +72,22 @@
                 <td>商品编号</td>
                 <td>
                     <input class="easyui-numberbox" data-options="required:true"
-                           style="width:800px">
+                           style="width:800px" name="productNumber">
                 </td>
             </tr>
 
             <tr>
                 <td>商品主图</td>
                 <td>
-                    <a id="btn" href="#" class="easyui-linkbutton">上传图片</a>
+                    <input id="fileName" name="uploadfile" />
+                    <a href="#" class="easyui-linkbutton uploadPic">上传图片</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>主图预览</td>
+                <td>
+                    <img src="" id="img" width="376" height="190">
                 </td>
             </tr>
 
@@ -89,7 +103,7 @@
     </form>
 
     <div align="center">
-        <a id="btn" href="#" class="easyui-linkbutton">提交</a>
+        <a id="btn" href="#" class="easyui-linkbutton" onclick="submitForm()">提交</a>
         <a id="btn" href="#" class="easyui-linkbutton">重置</a>
 
     </div>
@@ -99,12 +113,24 @@
 <script>
 
     $(function () {
-        //实例化编辑器
-        //建议使用工厂方法getEditor创建和引用编辑器实例，如果在某个闭包下引用该编辑器，直接调用UE.getEditor('editor')就能拿到相关的实例
-        var ue = UE.getEditor('editor');
-
         MANONG.init();
-    })
+    });
+
+    function submitForm() {
+
+        $("#productAddForm").find("input[name='description']").val( UE.getEditor('editor').getContent());
+
+        $("#productAddForm").find("input[name='price']").val(eval($("#productAddForm").find("input[name='pricePreview']").val())*100);
+        $("#productAddForm").find("input[name='maketPrice']").val(eval($("#productAddForm").find("input[name='maketPricePreview']").val())*100);
+
+        $.post("/product_save", $("#productAddForm").serialize(),function (data) {
+            if(data.status == 200){
+                $.messager.alert('提示','成功添加商品');
+            }
+        })
+    }
+
+
 
 </script>
 
