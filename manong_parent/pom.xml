@@ -16,6 +16,7 @@
         <module>../manong_sso</module>
         <module>../manong_redis</module>
         <module>../manong_search</module>
+        <module>../manong_portal</module>
     </modules>
 
     <!--集中地定义版本号-->

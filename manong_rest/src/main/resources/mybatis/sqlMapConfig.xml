@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <plugins>
+        <!-- com.github.pagehelper为PageHelper类所在包名 -->
+        <plugin interceptor="com.github.pagehelper.PageHelper">
+            <!-- 使用下面的方式配置参数，后面会有所有的参数介绍 -->
+            <property name="dialect" value="mysql"/>
+        </plugin>
+    </plugins>
+</configuration>
