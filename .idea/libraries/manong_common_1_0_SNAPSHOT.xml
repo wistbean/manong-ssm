@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="manong_common-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/manong_common/target/manong_common-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

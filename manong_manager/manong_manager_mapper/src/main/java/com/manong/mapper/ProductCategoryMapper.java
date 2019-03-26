@@ -4,6 +4,7 @@ import com.manong.pojo.ProductCategory;
 import com.manong.pojo.ProductCategoryExample;
 import org.apache.ibatis.annotations.Param;
 
+
 import java.util.List;
 
 public interface ProductCategoryMapper {

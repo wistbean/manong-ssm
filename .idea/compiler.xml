@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="manong_common" />
+        <module name="manong_manager_mapper" />
+        <module name="manong_manager_pojo" />
+        <module name="manong_manager_service" />
+        <module name="manong_manager_web" />
+        <module name="manong_portal" />
+        <module name="manong_redis" />
+        <module name="manong_rest" />
+        <module name="manong_search" />
+        <module name="manong_sso" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="manong_common" target="1.8" />
+      <module name="manong_manager" target="1.8" />
+      <module name="manong_manager_mapper" target="1.8" />
+      <module name="manong_manager_pojo" target="1.8" />
+      <module name="manong_manager_service" target="1.8" />
+      <module name="manong_manager_web" target="1.8" />
+      <module name="manong_parent" target="1.8" />
+      <module name="manong_portal" target="1.8" />
+      <module name="manong_redis" target="1.8" />
+      <module name="manong_rest" target="1.8" />
+      <module name="manong_search" target="1.8" />
+      <module name="manong_sso" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
