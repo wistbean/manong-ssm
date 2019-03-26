@@ -1,0 +1,10 @@
+*{
+	margin:0;          
+	/* body -8px */
+	text-decoration: none;/*a */
+	/* 字体回复默认值 */
+	font-style: normal;
+	padding: 0;/* 标题 */
+	list-style: none;/* body -8px */
+
+} 
