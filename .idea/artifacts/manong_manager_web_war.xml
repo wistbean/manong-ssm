@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="manong_manager_web:war">
+    <output-path>$PROJECT_DIR$/manong_manager/manong_manager_web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>manong_manager_web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="manong_manager_web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="manong_manager_web:war exploded" />
+    </root>
+  </artifact>
+</component>

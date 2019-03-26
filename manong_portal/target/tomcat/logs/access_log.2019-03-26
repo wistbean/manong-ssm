@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [26/Mar/2019:22:20:23 +0800] "GET /css/index.css HTTP/1.1" 200 27585 http-bio-8081-exec-2 63
+0:0:0:0:0:0:0:1 - - [26/Mar/2019:22:20:23 +0800] "GET /img/search.gif HTTP/1.1" 404 979 http-bio-8081-exec-4 36
+0:0:0:0:0:0:0:1 - - [26/Mar/2019:22:20:23 +0800] "GET /css/public.css HTTP/1.1" 200 183 http-bio-8081-exec-3 32
+0:0:0:0:0:0:0:1 - - [26/Mar/2019:22:20:23 +0800] "GET / HTTP/1.1" 200 12919 http-bio-8081-exec-1 1764
+0:0:0:0:0:0:0:1 - - [26/Mar/2019:22:20:23 +0800] "GET /img/banner1.png HTTP/1.1" 404 981 http-bio-8081-exec-5 47
+0:0:0:0:0:0:0:1 - - [26/Mar/2019:22:20:24 +0800] "GET /img/banner2.png HTTP/1.1" 404 981 http-bio-8081-exec-10 2
+0:0:0:0:0:0:0:1 - - [26/Mar/2019:22:20:24 +0800] "GET /img/tianMlogo.png HTTP/1.1" 404 985 http-bio-8081-exec-10 3
