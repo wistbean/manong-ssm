@@ -30,7 +30,7 @@
           <element id="archive" name="manong_manager_mapper-1.0-SNAPSHOT.jar">
             <element id="module-output" name="manong_manager_mapper" />
           </element>
-          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.3.1" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.4" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.9" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.32" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.2.8" />
@@ -50,9 +50,9 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.1.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.1.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.1.3.RELEASE" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.4.2" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.4.0" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.4.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.8" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.8" />
         </element>
       </element>
       <element id="directory" name="META-INF">
