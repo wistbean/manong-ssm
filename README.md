@@ -8,6 +8,14 @@ b站：[视频讲解](https://space.bilibili.com/7028047/video)
 Youtube：[墙外视频](https://www.youtube.com/watch?v=IHVz8Lpe510&list=PLjjwfqIOpH-iy7l05VaJw8zOCYAevt7A2)
 
 
+# 注意
+
+代码 clone 下来之后有几个 jar 包需要使用 maven 自行导入：
+
+> ueditor
+> json
+> fastdfs
+
 # 技术选型
 
 1. Spring
