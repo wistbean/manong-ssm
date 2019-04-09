@@ -28,7 +28,7 @@ public class IndexController {
         modelMap.addAttribute("categories",categories);
         List<Res_Product> products = productService.getProducts();
         modelMap.addAttribute("products",products);
-        return "index";
+        return "Product";
     }
 
 

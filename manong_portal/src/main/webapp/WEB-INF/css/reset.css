@@ -1,0 +1,44 @@
+@charset "utf-8";
+/************************************重置样式******************************************/
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+body{font-size:11px;}
+img{border:none;}
+li{list-style:none;}
+input,select,textarea{outline:none;border:none;background:none;}
+textarea{resize:none;}
+a{text-decoration:none; color:#666;}
+
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+.hide{display:none;}
+.show{display:block;}
+/*****************************/
+.pink{color:#EA5F8D;}
+.BGpink{background-color:#EA5F8D;}
+.BDpink{border-left:5px solid #EA5F8D;}
+.green{color:#64C333;}
+.BGgreen{background-color:#64C333;}
+.BDgreen{border-left:5px solid #64C333;}
+.blue{color:#0AA6E8;}
+.BGblue{background-color:#0AA6E8;}
+.BDblue{border-left:5px solid #0AA6E8;}
+.yellow{color:#F7A945;}
+.BGyellow{background-color:#F7A945;}
+.BDyellow{border-left:5px solid #F7A945;}
+.purple{color:#F13653;}
+.BGpurple{background-color:#F13653;}
+.BDpurple{border-left:5px solid #F13653;}
+/***************************************/
+.RightBorder{border-right:1px solid #999;}
+.hr_7{height:7px;overfiow:hidden;}
+.greyground{background-color:#f5f5f5;}/**背景灰色***/
+.mar10{margin:10px 0;}/**间距10**/
+.under_line{border-bottom:1px #ccc dotted;padding-bottom:5px;}
+.750wid{width:750px;}
+.greycolor{color:#999;}
+.sj{margin-left:20px;}
+
+
+

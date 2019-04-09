@@ -1,0 +1,13 @@
+
+#toTop {
+	width:40px; 
+	height:40px; 
+	position:fixed; 
+	display:none;
+	right:65px; 
+	bottom:10px; 
+	/*display:none; */
+	background:url(../js/top_bg.png) no-repeat left top;}
+#toTop:hover {
+	background:url(../js/top_bg.png) no-repeat 0 -39px;}
+
