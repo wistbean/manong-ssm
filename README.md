@@ -57,12 +57,7 @@ Youtube：[墙外视频](https://www.youtube.com/watch?v=IHVz8Lpe510&list=PLjjwf
 - 拦截器
 - 后端功能 （系统的开发，图片系统，数据等等）
 - 前端功能 （商品浏览，下订单，购物车等等。。）
-- redis使用以及集群搭建
-- solor使用和集群搭建
-- JMS 消息队列 （activMQ）
-- sso单点登录
-- restful服务
-- 在Linux上部署
+- ...
 
 
 
