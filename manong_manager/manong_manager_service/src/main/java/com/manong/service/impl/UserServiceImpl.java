@@ -27,7 +27,7 @@ public class UserServiceImpl implements UserService {
 
         List<User> userList = userMapper.selectByExample(userExample);
 
-        if(userList!=null){
+        if(userList.size() != 0|| !userList.isEmpty()){
             return userList.get(0);
         }
 
