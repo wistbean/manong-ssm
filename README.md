@@ -1,11 +1,6 @@
 # 码农商城
 基于SSM框架的Java项目
 
-# 视频教程地址
-
-网址：[笔记](https://wistbean.github.io/java-ssm-video.html#SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B%E7%9B%AE%E5%BD%95)
-b站：[视频讲解](https://space.bilibili.com/7028047/video)
-Youtube：[墙外视频](https://www.youtube.com/watch?v=IHVz8Lpe510&list=PLjjwfqIOpH-iy7l05VaJw8zOCYAevt7A2)
 
 
 # 注意
